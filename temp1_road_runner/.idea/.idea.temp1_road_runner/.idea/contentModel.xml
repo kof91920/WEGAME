@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\eunbi\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_temp1_road_runner.21004633.00" t="ExcludeRecursive" />
+    <e p="D:\VR_PROGRAMMING\CS113\temp1_road_runner" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="EasyRoads3D" t="Include">
+          <e p="_readme .txt" t="Include" />
+          <e p="_Release Notes.txt" t="Include" />
+          <e p="prefab meshes" t="Include">
+            <e p="_custom prefabs.txt" t="Include" />
+          </e>
+          <e p="prefab sources" t="Include">
+            <e p="_custom prefabs.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="custom prefabs" t="Include">
+              <e p="_custom prefabs.txt" t="Include" />
+            </e>
+            <e p="dynamic prefabs" t="Include">
+              <e p="dynamic prefabs.txt" t="Include" />
+            </e>
+          </e>
+          <e p="shaders" t="Include">
+            <e p="EasyRoads3D - Unity 5 Standard.shader" t="Include" />
+            <e p="EasyRoads3D - Unity 5 StandardSpecular.shader" t="Include" />
+            <e p="EasyRoads3D - Unity Standard 2018.shader" t="Include" />
+            <e p="EasyRoads3D-Road-Edit-Mode.shader" t="Include" />
+            <e p="EasyRoads3D-Surface-Offset.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Fonts" t="Include">
+          <e p="license.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CoinController.cs" t="Include" />
+          <e p="EnemyController.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="GameOverManager.cs" t="Include" />
+          <e p="HomeUiManager.cs" t="Include" />
+          <e p="HudManager.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="temp1_road_runner.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
