@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour {
     // Takes care of the walking logic
     void WalkHandler()
     {
-        float movementZ = speed * Time.deltaTime ;
+        //float movementZ = speed * Time.deltaTime ;
         //transform.position += new Vector3(0, 0, );
         
         // Input on x (Horizontal)
@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour {
         if(hAxis != 0 || vAxis != 0)
         {
             // Movement vector
-            Vector3 movement = new Vector3(1.5f * walkSpeed * Time.deltaTime, 0, movementZ);
+            Vector3 movement = new Vector3(hAxis * walkSpeed * Time.deltaTime, 0, vAxis * walkSpeed * Time.deltaTime);//movementZ);
 
             // Calculate the new position
             Vector3 newPos = transform.position + movement;
@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour {
         }
         else
         {
-            transform.position += new Vector3(0, 0, movementZ);
+            transform.position += new Vector3(0, 0, vAxis * walkSpeed * Time.deltaTime);// movementZ);
         }
     }
 
@@ -122,7 +122,7 @@ public class PlayerController : MonoBehaviour {
             bool isGrounded = CheckGrounded();
 
             //make sure we are not already jumping
-            if(!pressedJump && isGrounded)
+            if(!pressedJump )//&& isGrounded)
             {
                 pressedJump = true;
 
@@ -195,7 +195,7 @@ public class PlayerController : MonoBehaviour {
 
         // modify it's position according to cameraDistZ
         cameraPos.z = transform.position.z - cameraDistZ;
-
+        //cameraPos.x = transform.localEulerAngles.x; 
         // set the camera position
         Camera.main.transform.position = cameraPos;
     }

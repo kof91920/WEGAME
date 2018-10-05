@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CartoonLab\Scripts\DemoController.cs" />
     <Compile Include="Assets\Scripts\CoinController.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -62,13 +63,31 @@
     <Compile Include="Assets\Scripts\HomeUiManager.cs" />
     <Compile Include="Assets\Scripts\HudManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Suriyun\Script\AnimatorController.cs" />
+    <Compile Include="Assets\Suriyun\Script\MouseOrbitImproved.cs" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_eye.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_fuku.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\CharaOutline.cginc" />
     <None Include="Assets\Fonts\license.txt" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\readme.txt" />
     <None Include="Assets\SimpleSky\ReadMe.txt" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_fuku_ds.shader" />
     <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D-Surface-Offset.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_eye_blend.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\CharaSkin.cginc" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_hair_ds.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\Suriyun\README.txt" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\CharaMain.cginc" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D - Unity 5 Standard.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_eyelash_blend.shader" />
     <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D - Unity 5 StandardSpecular.shader" />
+    <None Include="Assets\CartoonLab\!readme.txt" />
     <None Include="Assets\EasyRoads3D\prefab meshes\_custom prefabs.txt" />
     <None Include="Assets\EasyRoads3D\_readme .txt" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader_v1.2.4\Shader\Unitychan_chara_hada_blend.shader" />
     <None Include="Assets\EasyRoads3D\prefab sources\_custom prefabs.txt" />
     <None Include="Assets\EasyRoads3D\_Release Notes.txt" />
     <None Include="Assets\EasyRoads3D\Resources\dynamic prefabs\dynamic prefabs.txt" />
