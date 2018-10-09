@@ -95,16 +95,16 @@
     <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D - Unity Standard 2018.shader" />
     <None Include="Assets\EasyRoads3D\shaders\EasyRoads3D-Road-Edit-Mode.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/VR_PROGRAMMING/CS113/temp1_road_runner/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/WEGAME/temp1_road_runner/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/VR_PROGRAMMING/CS113/temp1_road_runner/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/WEGAME/temp1_road_runner/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/VR_PROGRAMMING/CS113/temp1_road_runner/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/WEGAME/temp1_road_runner/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/VR_PROGRAMMING/CS113/temp1_road_runner/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/WEGAME/temp1_road_runner/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -302,7 +302,7 @@
       <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="EasyRoads3Dv3">
-      <HintPath>D:/VR_PROGRAMMING/CS113/temp1_road_runner/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
+      <HintPath>D:/WEGAME/temp1_road_runner/Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/eunbi/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
