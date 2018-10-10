@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61d1a68c-29ed-4c80-b7d1-1722af9522f2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Circle_runner/.idea/.idea.Circle_runner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Circle_runner/.idea/.idea.Circle_runner/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FirstPersonController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FirstPersonController.cs.meta" beforeDir="false" />
@@ -132,7 +133,8 @@
       <file leaf-file-name="FirstPersonController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="288">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
                 <marker date="1539115506000" expanded="false" signature="6:44" ph="..." />
                 <marker date="1539115506000" expanded="true" signature="139:1959" ph="{...}" />
@@ -150,6 +152,12 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -166,6 +174,30 @@
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="New Unity Project (9) copy" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -182,6 +214,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="61d1a68c-29ed-4c80-b7d1-1722af9522f2" name="Default" comment="" />
@@ -189,16 +224,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539145141017</updated>
-      <workItem from="1539146431545" duration="5000" />
+      <workItem from="1539146431545" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5000" />
+    <option name="totallyTimeSpent" value="26000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="15" width="784" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" />
@@ -206,10 +249,10 @@
       <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="NuGet" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -228,10 +271,14 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="288">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <marker date="1539115506000" expanded="false" signature="6:44" ph="..." />
             <marker date="1539115506000" expanded="true" signature="139:1959" ph="{...}" />
