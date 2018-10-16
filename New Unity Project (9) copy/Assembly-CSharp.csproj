@@ -86,6 +86,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/WEGAME/New Unity Project (9) copy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>D:/WEGAME/New Unity Project (9) copy/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>

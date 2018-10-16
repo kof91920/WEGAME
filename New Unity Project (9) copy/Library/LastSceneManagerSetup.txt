@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Suriyun/Penguins/Penguin.unity
+- path: Assets/CartoonLab/Scenes/Assets.unity
   isLoaded: 1
   isActive: 1
