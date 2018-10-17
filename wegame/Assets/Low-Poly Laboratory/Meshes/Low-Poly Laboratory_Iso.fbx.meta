@@ -1,0 +1,131 @@
+fileFormatVersion: 2
+guid: 78fc6c3d56757d543ae25bb02a45a4cc
+timeCreated: 1487238632
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Lab_Room_Double_1_Iso
+    100002: Lab_Room_Double_2_Iso
+    100004: Lab_Room_Double_3_Iso
+    100006: Lab_Room_Double_4_Iso
+    100008: Lab_Room_Pit_Iso
+    100010: Lab_Room_Single_1_Iso
+    100012: Lab_Room_Single_2_Iso
+    100014: Lab_Room_Single_3_Iso
+    100016: Lab_Room_Single_4_Iso
+    100018: //RootNode
+    400000: Lab_Room_Double_1_Iso
+    400002: Lab_Room_Double_2_Iso
+    400004: Lab_Room_Double_3_Iso
+    400006: Lab_Room_Double_4_Iso
+    400008: Lab_Room_Pit_Iso
+    400010: Lab_Room_Single_1_Iso
+    400012: Lab_Room_Single_2_Iso
+    400014: Lab_Room_Single_3_Iso
+    400016: Lab_Room_Single_4_Iso
+    400018: //RootNode
+    2300000: Lab_Room_Double_1_Iso
+    2300002: Lab_Room_Double_2_Iso
+    2300004: Lab_Room_Double_3_Iso
+    2300006: Lab_Room_Double_4_Iso
+    2300008: Lab_Room_Pit_Iso
+    2300010: Lab_Room_Single_1_Iso
+    2300012: Lab_Room_Single_2_Iso
+    2300014: Lab_Room_Single_3_Iso
+    2300016: Lab_Room_Single_4_Iso
+    3300000: Lab_Room_Double_1_Iso
+    3300002: Lab_Room_Double_2_Iso
+    3300004: Lab_Room_Double_3_Iso
+    3300006: Lab_Room_Double_4_Iso
+    3300008: Lab_Room_Pit_Iso
+    3300010: Lab_Room_Single_1_Iso
+    3300012: Lab_Room_Single_2_Iso
+    3300014: Lab_Room_Single_3_Iso
+    3300016: Lab_Room_Single_4_Iso
+    4300000: Lab_Room_Pit_Iso
+    4300002: Lab_Room_Double_4_Iso
+    4300004: Lab_Room_Double_3_Iso
+    4300006: Lab_Room_Double_2_Iso
+    4300008: Lab_Room_Double_1_Iso
+    4300010: Lab_Room_Single_4_Iso
+    4300012: Lab_Room_Single_3_Iso
+    4300014: Lab_Room_Single_2_Iso
+    4300016: Lab_Room_Single_1_Iso
+    6400000: Lab_Room_Double_1_Iso
+    6400002: Lab_Room_Double_2_Iso
+    6400004: Lab_Room_Double_3_Iso
+    6400006: Lab_Room_Double_4_Iso
+    6400008: Lab_Room_Pit_Iso
+    6400010: Lab_Room_Single_1_Iso
+    6400012: Lab_Room_Single_2_Iso
+    6400014: Lab_Room_Single_3_Iso
+    6400016: Lab_Room_Single_4_Iso
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.15
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
