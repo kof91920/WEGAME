@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\playerLook.cs" />
     <Compile Include="Assets\Scripts\playerMove.cs" />
     <Compile Include="Assets\Scripts\PlayerRpgController.cs" />
+    <Compile Include="Assets\Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\WeaponController.cs" />
     <Compile Include="Assets\Suriyun\Script\AnimatorController.cs" />
     <Compile Include="Assets\Suriyun\Script\MouseOrbitImproved.cs" />
