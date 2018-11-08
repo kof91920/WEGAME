@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class playerMove : MonoBehaviour {
-
-    [SerializeField] private float movementSpd = 6f;
-    [SerializeField] private float lookSensitivity = 4f;
+    [SerializeField] private string horInput;
+    [SerializeField] private string verInput;
+    [SerializeField] private float movementSpd;
     [SerializeField] private AnimationCurve fallOff;
     [SerializeField] private float jumpVal;
     [SerializeField] private KeyCode jumpKey;
 
-    [SerializeField] private Camera cam;
-    [SerializeField] private Rigidbody playerRB;
     private CharacterController ccontrol;
     private bool jump;
 
@@ -23,29 +21,16 @@ public class playerMove : MonoBehaviour {
     private void Update()
     {
         Movement();
-        Rotation();
-    }
-    private void Rotation()
-    {
-        float _yRot = Input.GetAxisRaw("Mouse X");
-        Vector3 _playRotation = new Vector3(0f, _yRot, 0f) * lookSensitivity;
-        playerRB.MoveRotation(playerRB.rotation * Quaternion.Euler(_playRotation));
-
-        float _xRot = Input.GetAxisRaw("Mouse Y");
-        Vector3 _camRotation = new Vector3(_xRot, 0f, 0f) * lookSensitivity;
-        cam.transform.Rotate(-_camRotation);
     }
 
-    private void Movement()
-    {
-        float _xMov = Input.GetAxis("Horizontal");
-        float _zMov = Input.GetAxis("Vertical");
-        Vector3 _move = Vector3.zero;
-        _move = (_xMov*transform.right+_zMov*transform.forward);
-        _move = _move.normalized * movementSpd;
-        playerRB.MovePosition(playerRB.position +_move * Time.fixedDeltaTime);
+    private void Movement(){
+        float hInput = Input.GetAxis(horInput) * movementSpd * Time.deltaTime;
+        float vInput = Input.GetAxis(verInput) * movementSpd * Time.deltaTime;
 
-        
+        Vector3 forward = transform.forward * vInput;
+        Vector3 right = transform.right * hInput;
+
+        ccontrol.SimpleMove(forward + right);
         jumpInput();
     }
 
