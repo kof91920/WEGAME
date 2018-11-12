@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\eunbi\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_wegame.214366645.00" t="ExcludeRecursive" />
+    <e p="D:\VR_PROGRAMMING\Programming\book\Zenva\RPG\penguin\wegame" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Asset - Evolutive Dungeon Generator (LITE)" t="Include">
+          <e p="Asset" t="Include">
+            <e p="DGModuleInstance.cs" t="Include" />
+            <e p="DungeonGenerator.cs" t="Include" />
+            <e p="Internals" t="Include">
+              <e p="DGModuleDefinition.cs" t="Include" />
+              <e p="DGMPathsController.cs" t="Include" />
+              <e p="DGUtils.cs" t="Include" />
+              <e p="DungeonGeneratorEditor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Demo" t="Include">
+            <e p="Demo.cs" t="Include" />
+            <e p="World.cs" t="Include" />
+          </e>
+          <e p="Documentation" t="Include">
+            <e p="Asset Store Descriptions.txt" t="Include" />
+            <e p="Documentation.txt" t="Include" />
+          </e>
+        </e>
+        <e p="CartoonLab" t="Include">
+          <e p="!readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="DemoController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Editor" t="Include">
+          <e p="InvertedSphere.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="EnemyController.cs" t="Include" />
+          <e p="PlayerBodyController.cs" t="Include" />
+          <e p="PlayerRpgController.cs" t="Include" />
+          <e p="WeaponController.cs" t="Include" />
+        </e>
+        <e p="Suriyun" t="Include">
+          <e p="readme.txt" t="Include" />
+          <e p="Script" t="Include">
+            <e p="AnimatorController.cs" t="Include" />
+            <e p="MouseOrbitImproved.cs" t="Include" />
+          </e>
+          <e p="UnityChanShader_v1.2.4" t="Include">
+            <e p="Shader" t="Include">
+              <e p="CharaMain.cginc" t="Include" />
+              <e p="CharaOutline.cginc" t="Include" />
+              <e p="CharaSkin.cginc" t="Include" />
+              <e p="readme.txt" t="Include" />
+              <e p="Unitychan_chara_akarami_blend.shader" t="Include" />
+              <e p="Unitychan_chara_eye.shader" t="Include" />
+              <e p="Unitychan_chara_eye_blend.shader" t="Include" />
+              <e p="Unitychan_chara_eyelash_blend.shader" t="Include" />
+              <e p="Unitychan_chara_fuku.shader" t="Include" />
+              <e p="Unitychan_chara_fuku_ds.shader" t="Include" />
+              <e p="Unitychan_chara_hada.shader" t="Include" />
+              <e p="Unitychan_chara_hada_blend.shader" t="Include" />
+              <e p="Unitychan_chara_hair.shader" t="Include" />
+              <e p="Unitychan_chara_hair_ds.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="VR Standard Assets" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Reticle.cs" t="Include" />
+            <e p="VRCameraUI.cs" t="Include" />
+            <e p="VRDeviceManager.cs" t="Include" />
+            <e p="VREyeRaycaster.cs" t="Include" />
+            <e p="VRFPSCounter.cs" t="Include" />
+            <e p="VRInput.cs" t="Include" />
+            <e p="VRInteractiveItem.cs" t="Include" />
+            <e p="VRTrackingReset.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="UIOverlay.shader" t="Include" />
+          </e>
+        </e>
+        <e p="VR_Helper" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="CanvasFaceCamera.cs" t="Include" />
+            <e p="CollectableController.cs" t="Include" />
+            <e p="DragCamera.cs" t="Include" />
+            <e p="FixedTeleportationPodController.cs" t="Include" />
+            <e p="FreeTeleportationZone.cs" t="Include" />
+            <e p="ObjectPool.cs" t="Include" />
+            <e p="PlayerCollectableCtrl.cs" t="Include" />
+            <e p="PlayerFixedTeleportationController.cs" t="Include" />
+            <e p="PlayerFreeTeleportController.cs" t="Include" />
+            <e p="VR2DButtonController.cs" t="Include" />
+            <e p="VRCalloutController.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Outline Shader.shader" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="wegame.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
