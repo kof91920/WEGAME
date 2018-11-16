@@ -5,6 +5,9 @@ using UnityEngine;
 public class trigger : MonoBehaviour {
     private Wall wallscript1;
     private Wall wallscript2;
+    private Wall wallscript3;
+    private Wall wallscript4;
+    private Wall wallscript5;
     // Use this for initialization
     void Start () {
         SetInit();
@@ -20,6 +23,9 @@ public class trigger : MonoBehaviour {
         Debug.Log("hi");
         wallscript1.setLayerToNotSoild();
         wallscript2.setLayerToNotSoild();
+        wallscript3.setLayerToNotSoild();
+        wallscript4.setLayerToNotSoild();
+        wallscript5.setLayerToNotSoild();
     }
 
     void SetInit()
@@ -28,6 +34,9 @@ public class trigger : MonoBehaviour {
         {
             wallscript1 = GameObject.Find("MCS Right Door").GetComponent<Wall>();
             wallscript2 = GameObject.Find("MCS Left Door").GetComponent<Wall>();
+            wallscript3 = GameObject.Find("Instructions 1").GetComponent<Wall>();
+            wallscript4 = GameObject.Find("Instructions 2").GetComponent<Wall>();
+            wallscript5 = GameObject.Find("Instructions 3").GetComponent<Wall>();
         }
         else
             Debug.Log("not find");
