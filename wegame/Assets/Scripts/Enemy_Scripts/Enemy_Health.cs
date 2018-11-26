@@ -5,6 +5,8 @@ using UnityEngine;
 public class Enemy_Health : MonoBehaviour {
     private Enemy_Master enemyMaster;
     public int enemyHealth = 100;
+    public int score;
+    public UnityEngine.UI.Text scores;    
 
     private void OnEnable()
     {
@@ -30,13 +32,24 @@ public class Enemy_Health : MonoBehaviour {
             enemyHealth = 0;
             enemyMaster.CallEventEnemyDie();
             Destroy(gameObject, Random.Range(5, 10));
+            score += 10;
+            SetUI();
+
         }
     }
     void isDead()
     {
         if(enemyHealth <= 0)
         {
-
+            
         }
     }
+    void SetUI()
+    {
+        if(scores != null)
+        {
+            scores.text= score.ToString();
+        }
+    }
+
 }

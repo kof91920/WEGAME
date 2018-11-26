@@ -10,6 +10,7 @@ public class Player_health : MonoBehaviour {
     public int playerHealth;
     public UnityEngine.UI.Text healthText;
 
+
     private void OnEnable()
     {
         setInit();
@@ -68,6 +69,17 @@ public class Player_health : MonoBehaviour {
         if(healthText != null)
         {
             healthText.text= playerHealth.ToString();
+        }
+    }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("HPITEM"))
+        {
+            print("enter HP Item");
+            playerHealth += 10;
+            Destroy(other.gameObject);
+            SetUI();
         }
     }
 }

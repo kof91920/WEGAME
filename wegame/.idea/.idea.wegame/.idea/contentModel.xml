@@ -1,71 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\eunbi\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_wegame.214366645.00" t="ExcludeRecursive" />
-    <e p="D:\VR_PROGRAMMING\Programming\book\Zenva\RPG\penguin\wegame" t="IncludeRecursive">
+    <e p="C:\Users\eunbi\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_wegame.-1392926209.00" t="ExcludeRecursive" />
+    <e p="C:\Users\eunbi\Documents\GitHub\wegame\wegame" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Asset - Evolutive Dungeon Generator (LITE)" t="Include">
-          <e p="Asset" t="Include">
-            <e p="DGModuleInstance.cs" t="Include" />
-            <e p="DungeonGenerator.cs" t="Include" />
-            <e p="Internals" t="Include">
-              <e p="DGModuleDefinition.cs" t="Include" />
-              <e p="DGMPathsController.cs" t="Include" />
-              <e p="DGUtils.cs" t="Include" />
-              <e p="DungeonGeneratorEditor.cs" t="Include" />
+        <e p="Downloaded" t="Include">
+          <e p="CartoonLab" t="Include">
+            <e p="!readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="DemoController.cs" t="Include" />
             </e>
           </e>
-          <e p="Demo" t="Include">
-            <e p="Demo.cs" t="Include" />
-            <e p="World.cs" t="Include" />
-          </e>
-          <e p="Documentation" t="Include">
-            <e p="Asset Store Descriptions.txt" t="Include" />
-            <e p="Documentation.txt" t="Include" />
-          </e>
-        </e>
-        <e p="CartoonLab" t="Include">
-          <e p="!readme.txt" t="Include" />
-          <e p="Scripts" t="Include">
-            <e p="DemoController.cs" t="Include" />
+          <e p="Suriyun" t="Include">
+            <e p="readme.txt" t="Include" />
+            <e p="Script" t="Include">
+              <e p="AnimatorController.cs" t="Include" />
+              <e p="MouseOrbitImproved.cs" t="Include" />
+            </e>
+            <e p="UnityChanShader_v1.2.4" t="Include">
+              <e p="Shader" t="Include">
+                <e p="CharaMain.cginc" t="Include" />
+                <e p="CharaOutline.cginc" t="Include" />
+                <e p="CharaSkin.cginc" t="Include" />
+                <e p="readme.txt" t="Include" />
+                <e p="Unitychan_chara_akarami_blend.shader" t="Include" />
+                <e p="Unitychan_chara_eye.shader" t="Include" />
+                <e p="Unitychan_chara_eye_blend.shader" t="Include" />
+                <e p="Unitychan_chara_eyelash_blend.shader" t="Include" />
+                <e p="Unitychan_chara_fuku.shader" t="Include" />
+                <e p="Unitychan_chara_fuku_ds.shader" t="Include" />
+                <e p="Unitychan_chara_hada.shader" t="Include" />
+                <e p="Unitychan_chara_hada_blend.shader" t="Include" />
+                <e p="Unitychan_chara_hair.shader" t="Include" />
+                <e p="Unitychan_chara_hair_ds.shader" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
         <e p="Editor" t="Include">
           <e p="InvertedSphere.cs" t="Include" />
         </e>
-        <e p="Scripts" t="Include">
-          <e p="EnemyController.cs" t="Include" />
-          <e p="PlayerBodyController.cs" t="Include" />
-          <e p="PlayerRpgController.cs" t="Include" />
-          <e p="WeaponController.cs" t="Include" />
+        <e p="Enemy_chase.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Zombie_Movements.cs" t="Include" />
         </e>
-        <e p="Suriyun" t="Include">
-          <e p="readme.txt" t="Include" />
-          <e p="Script" t="Include">
-            <e p="AnimatorController.cs" t="Include" />
-            <e p="MouseOrbitImproved.cs" t="Include" />
-          </e>
-          <e p="UnityChanShader_v1.2.4" t="Include">
-            <e p="Shader" t="Include">
-              <e p="CharaMain.cginc" t="Include" />
-              <e p="CharaOutline.cginc" t="Include" />
-              <e p="CharaSkin.cginc" t="Include" />
-              <e p="readme.txt" t="Include" />
-              <e p="Unitychan_chara_akarami_blend.shader" t="Include" />
-              <e p="Unitychan_chara_eye.shader" t="Include" />
-              <e p="Unitychan_chara_eye_blend.shader" t="Include" />
-              <e p="Unitychan_chara_eyelash_blend.shader" t="Include" />
-              <e p="Unitychan_chara_fuku.shader" t="Include" />
-              <e p="Unitychan_chara_fuku_ds.shader" t="Include" />
-              <e p="Unitychan_chara_hada.shader" t="Include" />
-              <e p="Unitychan_chara_hada_blend.shader" t="Include" />
-              <e p="Unitychan_chara_hair.shader" t="Include" />
-              <e p="Unitychan_chara_hair_ds.shader" t="Include" />
+        <e p="PlayerShoot.cs" t="Include" />
+        <e p="PlayerWeapon.cs" t="Include" />
+        <e p="Prefabs" t="Include">
+          <e p="Supercyan Character Pack Zombie Sample" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ZombieCameraLogic.cs" t="Include" />
+              <e p="ZombieCharacterControl.cs" t="Include" />
+              <e p="ZombieFree.cs" t="Include" />
             </e>
           </e>
         </e>
+        <e p="Scripts" t="Include">
+          <e p="Destructible_Scripts" t="Include">
+            <e p="Destructible_Health.cs" t="Include" />
+            <e p="Destructible_Master.cs" t="Include" />
+            <e p="Destructible_TakeDamage.cs" t="Include" />
+          </e>
+          <e p="Enemy_Scripts" t="Include">
+            <e p="Enemy_Animation.cs" t="Include" />
+            <e p="Enemy_Attack.cs" t="Include" />
+            <e p="Enemy_CollisionFeild.cs" t="Include" />
+            <e p="Enemy_Detection.cs" t="Include" />
+            <e p="Enemy_Health.cs" t="Include" />
+            <e p="Enemy_Master.cs" t="Include" />
+            <e p="Enemy_NavDestinationReached.cs" t="Include" />
+            <e p="Enemy_NavPursue.cs" t="Include" />
+            <e p="Enemy_NavWander.cs" t="Include" />
+            <e p="Enemy_Pause.cs" t="Include" />
+            <e p="Enemy_RagdollActivation.cs" t="Include" />
+            <e p="Enemy_TakeDamage.cs" t="Include" />
+            <e p="EnemyController.cs" t="Include" />
+          </e>
+          <e p="EventMaster.cs" t="Include" />
+          <e p="Floating.cs" t="Include" />
+          <e p="GameManager Scripts" t="Include">
+            <e p="GameManager_GameOver.cs" t="Include" />
+            <e p="GameManager_GoToMenuScene.cs" t="Include" />
+            <e p="GameManager_Master.cs" t="Include" />
+            <e p="GameManager_PanelInstructions.cs" t="Include" />
+            <e p="GameManager_References.cs" t="Include" />
+            <e p="GameManager_RestartLevel.cs" t="Include" />
+            <e p="GameManager_Score.cs" t="Include" />
+            <e p="GameManager_ToggleCursor.cs" t="Include" />
+            <e p="GameManager_ToggleMenu.cs" t="Include" />
+            <e p="GameManager_TogglePause.cs" t="Include" />
+            <e p="GameManager_TogglePlayer.cs" t="Include" />
+            <e p="GameManager_TogglerInventoryUI.cs" t="Include" />
+          </e>
+          <e p="Gun_Scripts" t="Include">
+            <e p="Gun_Damage.cs" t="Include" />
+            <e p="Gun_HitEffects.cs" t="Include" />
+            <e p="Gun_Input.cs" t="Include" />
+            <e p="Gun_Master.cs" t="Include" />
+            <e p="Gun_MuzzleFlash.cs" t="Include" />
+            <e p="Gun_Shot.cs" t="Include" />
+          </e>
+          <e p="Item_Scripts" t="Include">
+            <e p="ItemMaster.cs" t="Include" />
+          </e>
+          <e p="MainMenuScript.cs" t="Include" />
+          <e p="Player_Scripts" t="Include">
+            <e p="Canvas_hurt.cs" t="Include" />
+            <e p="Player_Detection.cs" t="Include" />
+            <e p="Player_health.cs" t="Include" />
+            <e p="PlayerBodyController.cs" t="Include" />
+            <e p="playerLook.cs" t="Include" />
+            <e p="PlayerMaster.cs" t="Include" />
+            <e p="playerMove.cs" t="Include" />
+            <e p="PlayerRpgController.cs" t="Include" />
+          </e>
+          <e p="SnowBallDamage.cs" t="Include" />
+          <e p="Spawners.cs" t="Include" />
+          <e p="ThrowSnowBall.cs" t="Include" />
+          <e p="WeaponController.cs" t="Include" />
+        </e>
+        <e p="Spawner.cs" t="Include" />
+        <e p="trigger.cs" t="Include" />
+        <e p="TriggerRoom1.cs" t="Include" />
         <e p="VR Standard Assets" t="Include">
           <e p="Scripts" t="Include">
             <e p="Reticle.cs" t="Include" />
@@ -97,6 +155,14 @@
           </e>
           <e p="Shaders" t="Include">
             <e p="Outline Shader.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Wall.cs" t="Include" />
+        <e p="WeaponAssets" t="Include">
+          <e p="MentalDreamsAssets" t="Include">
+            <e p="SoldierSoundsPack" t="Include">
+              <e p="ReadMe!.txt" t="Include" />
+            </e>
           </e>
         </e>
       </e>

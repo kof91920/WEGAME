@@ -57,4 +57,7 @@ public class playerMove : MonoBehaviour {
         jump = false;
     }
 
+
+    
+
 }

@@ -42,7 +42,7 @@ public class Enemy_Animation : MonoBehaviour {
         {
             if (myAnimator.enabled)
             {
-                myAnimator.SetBool("isIdle", false);
+                myAnimator.SetBool("isWalk", true);
                   
             }
         }
@@ -54,7 +54,7 @@ public class Enemy_Animation : MonoBehaviour {
         {
             if (myAnimator.enabled)
             {
-                myAnimator.SetBool("isIdle", true);
+                myAnimator.SetBool("isWalk", false);
             }
         }
     }
