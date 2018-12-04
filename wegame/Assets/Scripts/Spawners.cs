@@ -7,12 +7,19 @@ using UnityEngine;
 public class Spawners : MonoBehaviour {
     public GameObject objectSpawn;
     public int numberOfEnemies;
-    private float radius = 8;
+    private float radius = 5;
     private Vector3 spawnPos;
 
+    public float seconds;
+        
     void Start()
     {
-        SpawnObject();
+        InvokeRepeating("SpawnObject", 0.0f, 30.0f);
+    }
+
+    private void Update()
+    {
+
     }
 
     void SpawnObject()

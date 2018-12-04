@@ -15,6 +15,7 @@ public class Enemy_chase : MonoBehaviour {
     private void Start()
     {
         SetInitReference();
+        myTransform.GetComponent<Animator>().SetBool("isIdle", false);
     }
 
     private void Update()
