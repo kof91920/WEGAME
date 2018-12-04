@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using VRStandardAssets.Utils;
-
+/*
 [RequireComponent(typeof(VRInteractiveItem))]
 public class FreeTeleportationZone : MonoBehaviour {
 
@@ -69,3 +69,4 @@ public class FreeTeleportationZone : MonoBehaviour {
 
     
 }
+*/

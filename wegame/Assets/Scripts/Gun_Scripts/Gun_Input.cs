@@ -66,7 +66,7 @@ public class Gun_Input : MonoBehaviour {
         nextAttack = Time.time + attackRate;
         if (gunMaster.isGunloaded)
         {
-            Debug.Log("Shooting");
+            //Debug.Log("Shooting");
             gunMaster.CallEventPlayerInput();
         }
         else
@@ -85,7 +85,7 @@ public class Gun_Input : MonoBehaviour {
     }
     void CheckForBurstFireToggle()
     {
-        if (Input.GetButtonDown(reloadButtonName) && Time.timeScale > 0 &&
+        if (Input.GetButtonDown(burstFireButtonName) && Time.timeScale > 0 &&
     myTransform.root.CompareTag("Player"))
         {
             Debug.Log("Burst Fire Toggled");

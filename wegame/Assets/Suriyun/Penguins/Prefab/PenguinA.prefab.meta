@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8baf1026fe3b2ae4b8015aedb172fb6e
+guid: 8bad2aac435ece845b6f1ade331d036c
 labels:
 - Tree
 - Faye
@@ -24,9 +24,9 @@ labels:
 - SDDragon
 - dragon
 - penguin
-timeCreated: 1455898911
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

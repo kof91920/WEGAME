@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b7bc0a078f2d5f2408c63426f6ecc05e
+guid: 960d43376ebe7bf46aabca226509ba25
 labels:
 - SDRPGPack2
 - SDRPGPack3
@@ -24,9 +24,8 @@ labels:
 - Faye
 - Tree
 - penguin
-timeCreated: 1455898408
-licenseType: Store
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

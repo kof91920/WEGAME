@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c99416340ca82954f9fa1041b8e09519
+guid: f2d765a1d7573d64cb49c30d7ebe61d6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -14,12 +14,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Atlas
-    second: {fileID: 2100000, guid: aa4ddf53dacb23846a89304a57f16f5b, type: 2}
+    second: {fileID: 2100000, guid: f4a03e55d5d6600429f9347118bfc98b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Glass
-    second: {fileID: 2100000, guid: ead1a7c0885c76047b221da80c060d64, type: 2}
+    second: {fileID: 2100000, guid: ee17f7feff51fca4cae0403a2254b83a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
