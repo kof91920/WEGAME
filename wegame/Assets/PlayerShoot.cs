@@ -8,6 +8,9 @@ public class PlayerShoot : MonoBehaviour
     private float range = 8000;
     private Transform myTransform;
 
+    //public AudioSource audio1;
+    public AudioClip gunshot;
+
     private void Start()
     {
         SetInit();
@@ -27,6 +30,7 @@ public class PlayerShoot : MonoBehaviour
     {
         if (Input.GetButton("Fire1") && Time.time > nextFire)
         {
+            AudioSource.PlayClipAtPoint(gunshot, transform.position, 1f); // plays gunshot audioclip and creates temporary game objects
             Debug.DrawRay(myTransform.TransformPoint(0,0,10), myTransform.forward, Color.red, 3);
             if(Physics.Raycast(myTransform.TransformPoint(0,0,10), myTransform.forward,out hit, range))
             {
@@ -38,11 +42,8 @@ public class PlayerShoot : MonoBehaviour
                 {
                     Debug.Log("not enemy" + hit.transform.name);
                 }
-                
             }
-
             nextFire = Time.time + fireRate; 
-            
         }
     }
 }

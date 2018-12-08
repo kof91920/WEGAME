@@ -25,9 +25,18 @@ public class Gun_Master : MonoBehaviour {
     public bool isGunloaded;
     public bool isReloading;
 
+    public AudioSource source; //AudioSource for Gunshot
+    public AudioClip gunshot; //audioclip
+
     public void CallEventPlayerInput(){
         if (EventPlayerInput != null){
             EventPlayerInput();
+            if(!source.isPlaying){ // Plays gun Audio
+                float vol = Random.Range(.8f, 1.0f);
+                source.pitch = Random.Range(.8f, 1.1f);
+                source.PlayOneShot(gunshot, vol); // play
+                
+            }
         }
     }
     public void CallEventGunNotUsable()
