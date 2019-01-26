@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/pete-the-penguin 4.unity
-  isLoaded: 1
-  isActive: 1
